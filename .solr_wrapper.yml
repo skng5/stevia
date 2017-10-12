@@ -3,3 +3,5 @@
 collection:
   dir: solr/conf/
   name: blacklight-core
+persist: true
+version: 6.6.1
