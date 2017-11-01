@@ -60,7 +60,9 @@ end
 gem 'rsolr', '>= 1.0'
 gem 'devise'
 gem 'devise-guests', '~> 0.6'
+gem 'sidekiq'
 group :development, :test do
   gem 'fcrepo_wrapper'
   gem 'rspec-rails'
+  gem 'foreman'
 end
